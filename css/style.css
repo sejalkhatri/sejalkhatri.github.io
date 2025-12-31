@@ -238,9 +238,43 @@ hr.bottom_line {
     width: 30%;
 }
 
+
+
+.pdf-wrapper {
+   height: 70vh;
+   display: flex;
+   justify-content: center;
+}
+
+.pdf-wrapper iframe {
+    width: auto;
+    aspect-ratio: 8.5 / 11;
+    border: none;
+}
+
 .content-page {
     margin-top: 50px;
 }
+
+.project-content-page {
+    margin-top: 50px;
+}
+.project-content-page h3 {
+    text-align: center !important;
+}
+.project-content-page p {
+    text-align: center !important;
+    padding-top: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.project-content-page img {
+    display: block;
+    margin: auto;
+    height: 300px;
+}
+
+
 /* 
 .profile{
 	padding:10% 0;
