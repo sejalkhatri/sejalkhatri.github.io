@@ -1,3 +1,243 @@
+body {
+    max-width: 90% !important;
+    margin: 0 auto !important;
+    color: #262421;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container {
+    max-width: 100% !important;
+	margin-bottom:0 auto !important;
+}
+.nav {
+    font-size: 1em;
+    width: 90%;
+	overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    background-color: rgba(255,255,255,1)!important;
+    border-bottom: dotted 1.3px #509a55 !important;
+    z-index:999;
+}
+
+.nav-link{
+    background-color: rgba(255,255,255,1)!important;
+    color: gray;
+}
+
+.split-section {
+    display: flex;
+    padding-top: 3em;
+}
+
+.left-side-container{
+	height: 100%;
+}
+
+.right-side-container {
+    margin-left: 1%;
+}
+
+.profile_img{
+    width: 50%;
+    margin-top: 0em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.col-sm-4, .col-sm-3 {
+    background-color: #f9f9f9;
+}
+
+
+.col-sm-4, .col-sm-8, .col-sm-3, .col-sm-9{
+    padding: 15px;
+}
+
+.inline-img-iis {
+	border-style: none;
+    display: inline-block;
+    height: 1.5em;
+    vertical-align: middle;
+}
+.inline-img-harvard {
+	border-style: none;
+    display: inline-block;
+    height: 1em;
+    vertical-align: middle;
+}
+
+.name-container {
+    text-align: center; 
+    padding-bottom: 20px; 
+}
+
+.cv-buttons {
+    text-align: center; 
+    padding: 20px; 
+}
+
+.btn {
+    padding-bottom: 10px 20px; 
+    text-decoration: none; 
+    color: white; 
+    background-color: #509a55;
+    border-radius: 5px; 
+    border-color: #509a55;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;  
+    display: inline-block; 
+}
+
+.btn-primary { 
+    background-color: #509a55;
+    width: 90px
+} 
+
+.btn-primary:hover {
+    background-color: #777; 
+    border-color: #777;
+}
+
+.icon_row{
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.contacts{
+    width: 100%;
+    height: width;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.news-row{
+    padding-top: 1em;
+    text-align: left;
+}
+
+
+.news-title{
+    font-size: 1em;
+    color: #777;
+    padding-left: 1em;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    border-top: dotted 2px #509a55;
+    margin-top: 1.5em;
+}
+
+a{
+    color:  #262421;
+    text-decoration: none;
+}
+
+a:hover, a.active{
+    color:  #509a55;
+    text-decoration: none;
+}
+
+.linkto{
+    color: gray;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1.3px;
+    text-decoration-color: #509a55; 
+}
+
+.paper_section{
+    margin-bottom: 2em;
+}
+
+.paper-row{
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.paper_section_title{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 0.9em;
+    color: gray;
+    font-weight: 700;
+}
+
+#publication-list p{
+    margin-bottom: 0.3em;
+}
+
+#projects, #publications {
+    padding-top: 25px; 
+    margin-top: -25px; 
+}
+
+#publication-list p{
+    margin-bottom: 0.3em;
+}
+
+.col-sm-2 {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Adjusts spacing between cards */
+}
+
+.card {
+    background-color: white;
+    /* border-color: #777; */
+    box-shadow: 1px 1px 6px #d5d5d5;
+    /* border-width: 1px; */
+    border-radius: 20px;
+    overflow: clip;
+    width: 295px; /* calc(33.333% - 10px); Adjusts each card's width to fit 3 in a row, considering 20px total horizontal gap */
+    height: 330px;
+    margin-bottom: 20px; /* Adds space between rows */
+    margin-right: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.project-category {
+	font-size: 0.8em;
+	color: gray;
+	margin-top: -10px;
+}
+
+
+.footer {
+    left: 0;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    width: 100%;
+    color: gray;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+hr.bottom_line {
+    color: #509a55;
+    border: dotted 1.3px !important;
+    height: 0px !important;
+    width: 30%;
+}
+/* 
 .profile{
 	padding:10% 0;
 }
@@ -5,8 +245,7 @@
 	font-weight:normal;
 	color: #39D084;
 }
-/***** Profile *****/
-	.profile h1 {
+.profile h1 {
 	color:#39d084;
 	font-weight: normal;
 }
@@ -50,4 +289,4 @@ ul.social-icons li a {
 }
 ul.social-icons li a:hover {
 	opacity:1;
-}
+}  */
