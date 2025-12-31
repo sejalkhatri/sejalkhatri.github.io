@@ -238,8 +238,6 @@ hr.bottom_line {
     width: 30%;
 }
 
-
-
 .pdf-wrapper {
    height: 70vh;
    display: flex;
@@ -274,7 +272,83 @@ hr.bottom_line {
     height: 300px;
 }
 
+.shadows-podcast {
+    display: flex;
+}
 
+.podcast-header {
+	font-family: 'Instrument Serif', serif;
+}
+
+.shadows-podcast .col-sm-3{ 
+    background-color: black;
+}
+
+.podcast-title {
+    font-size: 6em;
+}
+
+.podcast-subtitle {
+    color: white;
+    font-size: 4em;
+}
+
+h2.podcast-section {
+    padding-left: 15px;
+    padding-top: 15px;
+    color: darkgray;
+    margin-bottom: -10px;
+}
+
+h2.other-projects-section {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.other-projects-section{
+    border-top: dotted 2px #509a55;
+}
+p.podcast-schedule {
+    color: aqua;
+    font-size: 1em;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.podcast-description {
+    display: block;
+    margin-right: 60px;
+}
+
+.podcast-description a {
+    text-decoration: underline;
+}
+
+.lineup-row {
+    display: flex;
+}
+.podcast-lineup {
+    margin-right: 60px;
+}
+.podcast-lineup .news-title{
+    border-top: dotted 2px lightgray;
+}
+
+.lineup-date {
+    text-align: center;
+    background-color: aqua;
+    margin: 2px;
+}
+
+.lineup-subject {
+    background-color: #f8f9fa;
+    margin: 2px;
+}
+
+.podcast-lineup-shedule p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
 /* 
 .profile{
 	padding:10% 0;
