@@ -237,6 +237,10 @@ hr.bottom_line {
     height: 0px !important;
     width: 30%;
 }
+
+.content-page {
+    margin-top: 50px;
+}
 /* 
 .profile{
 	padding:10% 0;
